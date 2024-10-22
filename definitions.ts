@@ -42,7 +42,7 @@ Blockly.Blocks['Motor_run'] = {
         .appendField(new Blockly.FieldVariable("motor"), "motor")
         .appendField(".run")
         .appendField("(");
-    this.appendValueInput("text")
+    this.appendValueInput("speed")
         .setCheck(null);
     this.appendDummyInput()
         .appendField(")");
@@ -60,7 +60,7 @@ Blockly.Blocks['wait'] = {
     this.appendDummyInput()
         .appendField("wait")
         .appendField("(");
-    this.appendValueInput("text")
+    this.appendValueInput("time")
         .setCheck(null);
     this.appendDummyInput()
         .appendField(")");
