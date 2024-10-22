@@ -3,14 +3,14 @@
  <block type="import_Pybricks"></block>
  <block type="Hub_init"></block>
  <block type="Motor_init"></block>
- <!--block type="Motor_run">
+ <block type="Motor_run">
     <value name="speed">
 		<shadow type="textinline">
 			<field name="text">0</field>
 		</shadow>
     </value>
   </block>
- <block type="Wait">
+ <!--block type="Wait">
     <value name="time">
 		<shadow type="textinline">
 			<field name="text">0</field>
