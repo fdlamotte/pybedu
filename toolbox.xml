@@ -10,11 +10,11 @@
 		</shadow>
     </value>
   </block>
- <block type="Wait">
+ <!--block type="Wait">
     <value name="time">
 		<shadow type="textinline">
 			<field name="text">0</field>
 		</shadow>
     </value>
- </block>
+ </block-->
 </category>
