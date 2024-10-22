@@ -1,0 +1,14 @@
+<category name="PyBricks" colour="#c51a4a" css-icon="customIcon fad fa-car">
+<label text="PyBricks" web-class="myLabelStyle"></label>
+ <block type="import_Pybricks"></block>
+ <block type="Hub_init"></block>
+ <block type="Motor_init"></block>
+ <block type="Motor_run">
+    <value name="time">
+    </value>
+  </block>
+ <block type="Wait">
+    <value name="time">
+    </value>
+  </block>
+</category>
