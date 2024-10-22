@@ -60,7 +60,7 @@ Blockly.Blocks['wait'] = {
     this.appendDummyInput()
         .appendField("wait")
         .appendField("(");
-    this.appendValueInput("time")
+    this.appendValueInput("NAME")
         .setCheck(null);
     this.appendDummyInput()
         .appendField(")");

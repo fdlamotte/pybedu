@@ -13,7 +13,9 @@
   </block>
 -->
  <block type="Wait">
-    <value name="time">
+    <value name="NAME">
+		<shadow type="value">
+		</shadow>
     </value>
   </block>
 </category>
