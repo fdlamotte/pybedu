@@ -40,8 +40,7 @@ Blockly.Blocks['Motor_run'] = {
   init: function() {
     this.appendDummyInput()
         .appendField(new Blockly.FieldVariable("motor"), "motor")
-        .appendField(".run")
-        .appendField("(");
+        .appendField(".run");
     this.appendValueInput("speed")
         .setCheck(null);
 /*    this.appendDummyInput()
@@ -59,13 +58,12 @@ Blockly.Blocks['Motor_run'] = {
 Blockly.Blocks['wait'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("wait")
-        .appendField("(");
+        .appendField("wait");
     this.appendValueInput("time")
         .setCheck(null);
-    this.appendDummyInput()
-        .appendField(")");
-    //this.setInputsInline(true);
+/*    this.appendDummyInput()
+        .appendField(")");*/
+    this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour("#c51a4a");
