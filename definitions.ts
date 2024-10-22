@@ -40,13 +40,13 @@ Blockly.Blocks['Motor_run'] = {
   init: function() {
     this.appendDummyInput()
         .appendField(new Blockly.FieldVariable("motor"), "motor")
-        .appendField(".run")
-        .appendField("(");
+        .appendField(".run");
+/*        .appendField("(");
     this.appendValueInput("speed")
         .setCheck(null);
     this.appendDummyInput()
         .appendField(")");
-    //this.setInputsInline(true);
+*/    //this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour("#c51a4a");
