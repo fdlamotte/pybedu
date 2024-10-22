@@ -46,7 +46,8 @@ Blockly.Blocks['Motor_run'] = {
         .setCheck(null);
 /*    this.appendDummyInput()
         .appendField(")");
-*/    //this.setInputsInline(true);
+*/  
+    this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour("#c51a4a");
